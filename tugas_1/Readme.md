@@ -54,9 +54,9 @@ b: sudut kedua
 Return: sudut ketiga
 📝 Artikel Medium
 
-Aku juga nulis artikel soal JavaScript & TypeScript di Medium:
+Saya juga nulis artikel soal JavaScript & TypeScript di Medium:
 
-🔗 Mengenal JavaScript & TypeScript
+🔗 https://medium.com/@syahrul.uix/mengenal-javascript-typescript-48df110dcb45
 
 🔗 GitHub Repo
 
