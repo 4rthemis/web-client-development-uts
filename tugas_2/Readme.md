@@ -1,83 +1,80 @@
-<h1>Dokumentasi</h1>
+Tugas 2 - Web Client Development
 
-Halo Bapak, Saya Syahrul Awaludin dari Program Studi Sistem Teknologi Informasi.
+Deskripsi
 
-Terima kasih atas arahan dan waktunya. Berikut saya lampirkan repository GitHub, LinkedIn serta artikel Medium yang saya tulis mengenai Git.
-<br>
-Saya sangat mengapresiasi feedback yang diberikan. Terima kasih!
+Pada Tugas 2 ini, saya mengembangkan beberapa fungsi JavaScript untuk menyelesaikan berbagai masalah dasar terkait string, angka, dan konversi satuan. Fungsi-fungsi yang dibuat di antaranya adalah pengecekan bilangan genap/ganjil, konversi satuan panjang dari centimeter ke kilometer, pengecekan apakah sebuah kata adalah palindrom, serta penghapusan huruf dalam sebuah string.
 
-Medium : https://medium.com/@syahrul.uix/memahami-penggunaan-git-panduan-lengkap-untuk-pengembang-c72388869f65
-<br>
-Github : https://github.com/4rthemis/Web-Client-Development
-<br>
-Linkedin : https://www.linkedin.com/posts/syahrul-awaludin_memahami-penggunaan-git-panduan-lengkap-activity-7306891772918386688--2fQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEjox60BFU15tS4Nz8SshIReZYA0qc9lmPM
+Fitur-fitur
 
-<h2>📌Penjelasan</h2>
 1. hapusHuruf.js
-Fungsi di dalam file ini untuk menghapus huruf tertentu dari sebuah string.
-<br>
-function hapusHuruf(teks, cari) {
-  // Mengganti hanya kemunculan pertama dari variable/param cari
-  return teks.replace(cari, "");
-}
+   Fungsi ini digunakan untuk menghapus huruf tertentu dari sebuah string. Fungsi ini hanya akan menghapus kemunculan pertama dari huruf yang dicari.
 
-//Cetak dan panggil fungsi beserta valuenya
+Contoh Penggunaan:
+
 console.log(hapusHuruf("Hello World", "ell"));
-<br>
-<br>
-<br> 2. caliciusToKilometer.js
-Fungsi di dalam file ini untuk mengconversi satuan dari centimeter ke kiometer.
-<br>
-function centimeterToKilometer(centimeter) {
-// Rumus konversi dari centimeter ke kilometer
-var kilometer = centimeter / 100000;
-//Mengembalikan variable kilometer ditambah string "Km"
-return kilometer + " Km";
-}
+// Output: "Ho World" 2. centimeterToKilometer.js
+Fungsi ini mengonversi panjang dari satuan centimeter ke kilometer. Dengan rumus konversi 1 kilometer = 100.000 centimeter.
 
-// Cetak dan panggil fungsi nya
-console.log(centimeterToKilometer(100000)); // Output
-<br>
-<br>
-<br> 3. bilanganGanjilGenap.js
-Fungsi ini dalam file ini untuk mengecek suatu bilangan itu ganjil atau genap
-<br>
-function isEven(angka) {
-// variable angka dibagi 2 jika hasilnya sama dengan 0 maka angka genap, jika tidak maka angka ganjil.
-return angka % 2 === 0;
-}
+Contoh Penggunaan:
 
-// Cetak dan panggil fungsi nya
+console.log(centimeterToKilometer(100000));
+// Output: "1 Km" 3. bilanganGanjilGenap.js
+Fungsi ini digunakan untuk memeriksa apakah suatu bilangan merupakan bilangan genap atau ganjil. Fungsi akan mengembalikan true jika bilangan tersebut genap, dan false jika ganjil.
+
+Contoh Penggunaan:
+
 console.log(isEven(1000));
+// Output: true (Karena 1000 adalah bilangan genap)
+
 console.log(isEven(1001));
-<br>
-<br>
-<br> 4. hapusHuruf.js
-Fungsi di dalam file ini untuk menghapus huruf tertentu dari sebuah string.
-<br>
-function hapusHuruf(teks, cari) {
-// Mengganti hanya kemunculan pertama dari variable/param cari
-return teks.replace(cari, "");
-}
+// Output: false (Karena 1001 adalah bilangan ganjil) 4. palindromCheck.js
+Fungsi ini digunakan untuk mengecek apakah sebuah kata atau kalimat merupakan palindrom, yaitu kata yang bisa dibaca sama dari depan dan belakang.
 
-//Cetak dan panggil fungsi beserta valuenya
-console.log(hapusHuruf("Hello World", "ell"));
-<br>
-<br>
-<br> 5. palindromCheck.js
-Fungsi di dalam file ini untuk mengecek apakah suatu kata atau kalimat merupakan palindrom (dibaca sama dari depan dan belakang).
-<br>
-function palindromCheck(kata) {
-var kataBaru = "";
-// Variabel untuk menyimpan kata yang dibalik
-for (var i = kata.length - 1; i >= 0; i--) {
-// Menambahkan karakter dari belakang ke depan
-kataBaru += kata[i];
-}
-// Membandingkan kata asli dengan kata yang sudah dibalik
-return kata === kataBaru;
-}
+Contoh Penggunaan:
 
-// Cetak dan panggil fungsi beserta valuenya
 console.log(palindromCheck("malam"));
+// Output: true (Karena "malam" adalah palindrom)
+
 console.log(palindromCheck("hello"));
+// Output: false (Karena "hello" bukan palindrom)
+Struktur File
+
+Berikut adalah struktur folder dan file yang digunakan pada Tugas 2 ini:
+
+tugas2/
+│
+├── hapusHuruf.js
+├── centimeterToKilometer.js
+├── bilanganGanjilGenap.js
+└── palindromCheck.js
+Cara Menggunakan
+
+Untuk menggunakan fungsi-fungsi ini, Anda cukup mengimpor file JavaScript yang sesuai dan memanggil fungsi yang dibutuhkan.
+
+1. Cara Import
+   import { hapusHuruf } from './hapusHuruf.js';
+   import { centimeterToKilometer } from './centimeterToKilometer.js';
+   import { isEven } from './bilanganGanjilGenap.js';
+   import { palindromCheck } from './palindromCheck.js';
+2. Cara Memanggil Fungsi
+   Setelah mengimpor fungsi, Anda dapat memanggilnya sesuai kebutuhan. Berikut adalah contoh pemanggilan fungsi:
+
+// Menghapus huruf pertama "ell" pada string "Hello World"
+console.log(hapusHuruf("Hello World", "ell"));
+
+// Mengonversi 100000 centimeter ke kilometer
+console.log(centimeterToKilometer(100000));
+
+// Mengecek apakah 1000 adalah bilangan genap
+console.log(isEven(1000));
+
+// Mengecek apakah kata "malam" adalah palindrom
+console.log(palindromCheck("malam"));
+
+Link
+Medium: https://medium.com/@syahrul.uix/memahami-penggunaan-git-panduan-lengkap-untuk-pengembang-c72388869f65
+
+🙏 Terima Kasih
+
+Terima kasih atas arahan dan waktunya, Bapak.
+Kalau ada saran atau masukan lebih lanjut, saya sangat terbuka untuk itu 🙏
