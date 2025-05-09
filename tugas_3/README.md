@@ -151,3 +151,12 @@ document.getElementById("menuToggle").addEventListener("click", function () {
   }
 });
 ```
+
+LinkedIn : https://www.linkedin.com/feed/update/urn:li:activity:7312829156193406976/
+Github : https://github.com/4rthemis/Web-Client-Development
+Medium : https://medium.com/@syahrul.uix/kenalan-sama-html-dan-css-langkah-awal-membuat-website-sendiri-e29ae653cf94
+
+🙏 Terima Kasih
+
+Terima kasih atas arahan dan waktunya, Bapak.
+Kalau ada saran atau masukan lebih lanjut, saya sangat terbuka untuk itu 🙏
