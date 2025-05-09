@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Workoutaja - Your personal trainer" />
+    <meta name="author" content="Syahrul" />
+    <title>Workoutaja</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <h1 class="logo">workoutaja</h1>
+      <button class="menu-toggle">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#training">Training</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section data-aos="fade-up-right" class="text">
+        <h1>WORKOUTS MADE <span class="highlight">EXCLUSIVE</span> FOR YOU!</h1>
+        <p>
+          We create <strong>exclusive and unique workouts</strong> for you.
+          Invest in your body and <strong>get much more performance</strong> and
+          quality of life.
+        </p>
+        <button>Start now</button>
+      </section>
+      <section class="image" data-aos="fade-up-left">
+        <img src="./images/woman.svg" alt="Animated Workout Illustration" />
+        <img src="./images/balls.svg" alt="pattern" class="pattern" />
+      </section>
+    </main>
+
+    <footer>
+      <p data-aos="zoom-in-down">
+        Send us a message <a href="#" class="highlight_2">@workoutaja</a>
+      </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/menuToggle.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
