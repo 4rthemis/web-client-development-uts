@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { useSessionStorage } from "../hook/UseSessionStorage";
 import PokemonData from "../data/PokemonData";
 
-
 const PokemonDetail = () => {
   const { name } = useParams();
   const [data, setData] = useSessionStorage(`pokemon-detail-${name}`, null);
@@ -19,9 +18,11 @@ const PokemonDetail = () => {
 
   return (
     <div className="p-4 max-w-xl mx-auto">
-      <h1 className="text-2xl text-primaryText font-bold capitalize mb-4">{data.name}</h1>
+      <h1 className="text-2xl text-white font-bold capitalize mb-4">
+        {data.name}
+      </h1>
       <img src={data.image} alt={data.name} className="w-48 mx-auto" />
-      <div className="mt-4 space-y-2">
+      <div className="mt-4 space-y-2 text-white">
         <p>
           <strong>Type:</strong> {data.type}
         </p>
