@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Tugas React Hooks: Aplikasi Daftar Pokémon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📄 Deskripsi Proyek
 
-## Available Scripts
+Proyek ini merupakan implementasi dari desain Figma yang diberikan untuk membangun aplikasi daftar Pokémon menggunakan **React Hooks**. Aplikasi ini menampilkan daftar Pokémon, memungkinkan pengguna untuk melihat detail, mengubah tampilan layout, serta melakukan penyaringan (filter) berdasarkan nama atau tipe Pokémon.
 
-In the project directory, you can run:
+Fitur utama:
 
-### `npm start`
+- Toggle tampilan antara **dua kolom** dan **satu kolom**
+- Menyimpan data Pokémon ke **LocalStorage** atau **SessionStorage**
+- Pencarian/filter berdasarkan field tertentu
+- Routing antar halaman menggunakan **React Router**
+- Styling menggunakan **Tailwind CSS**
+- Pemanfaatan **React Hooks** dan **Context API** untuk pengelolaan state
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Cara Menjalankan Proyek
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone repository
+   ```bash
+   git clone https://github.com/username/pokomen.git
+   cd pokomen
+   Install dependencies
+   npm install
+   Jalankan aplikasi secara lokal
+   npm start
+   🧰 Teknologi yang Digunakan
+   ```
 
-### `npm test`
+React.js v19
+React Router DOM v7
+Tailwind CSS v3
+LocalStorage / SessionStorage
+Heroicons (untuk ikon UI)
+📁 Struktur Folder
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+src/
+├── components/ # Komponen UI reusable
+├── contexts/ # Context API untuk layout dan penyimpanan
+├── pages/ # Halaman List dan Detail
+├── services/ # Fungsi API dan penyimpanan lokal
+├── App.jsx # Komponen utama
+└── main.jsx # Entry point aplikasi
+📌 Catatan Penggunaan
 
-### `npm run build`
+Pengguna dapat berpindah antara tampilan dua kolom dan satu kolom.
+Data Pokémon disimpan secara lokal agar tetap tersedia saat reload halaman.
+Pencarian dapat dilakukan berdasarkan nama atau tipe Pokémon.
+📷 Dokumentasi Visual
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Aplikasi ini mengikuti gaya visual dari desain Figma yang telah disediakan. Tampilan dibuat responsif dan konsisten dengan desain tersebut.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🙏 Terima Kasih
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Terima kasih atas arahan dan waktunya, Bapak.
+Kalau ada saran atau masukan lebih lanjut, saya sangat terbuka untuk itu 🙏
