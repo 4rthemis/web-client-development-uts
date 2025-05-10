@@ -47,8 +47,6 @@ Data Pokémon disimpan secara lokal agar tetap tersedia saat reload halaman.
 Pencarian dapat dilakukan berdasarkan nama atau tipe Pokémon.
 📷 Dokumentasi Visual
 
-Medium : https://medium.com/@syahrul.uix/react-state-management-hooks-vs-redux-mana-yang-lebih-cocok-8ed04ee596a6
-
 Aplikasi ini mengikuti gaya visual dari desain Figma yang telah disediakan. Tampilan dibuat responsif dan konsisten dengan desain tersebut.
 
 🙏 Terima Kasih
