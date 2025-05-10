@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+ugas: Figma to React - Landing Page & Contact Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Deskripsi Tugas
 
-## Available Scripts
+Pada tugas ini, saya diminta untuk mengimplementasikan Landing Page dan Contact Page berdasarkan desain yang diberikan melalui Figma. Proyek ini dibangun menggunakan React.js dan Vite dengan tujuan untuk menghasilkan aplikasi web yang responsif, efisien, dan modular. Struktur komponen yang digunakan disusun agar mudah dikembangkan dan dipelihara, serta routing antar halaman diterapkan dengan menggunakan React Router.
 
-In the project directory, you can run:
+Fitur Utama
+Routing menggunakan React Router untuk mengatur navigasi antar halaman
+Styling menggunakan Tailwind CSS untuk mencapai desain yang responsif dan konsisten
+Struktur komponen yang modular dan reusable, memudahkan pengelolaan kode dan pengembangan lebih lanjut 2. Tujuan
 
-### `npm start`
+Tujuan dari tugas ini adalah untuk:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Menerjemahkan desain dari Figma ke dalam kode yang dapat dijalankan menggunakan React.js
+Menerapkan konsep routing antar halaman menggunakan React Router
+Menggunakan Tailwind CSS untuk styling agar aplikasi responsif
+Mengorganisir proyek dengan struktur komponen yang modular dan reusable
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Teknologi yang Digunakan
 
-### `npm test`
+Untuk menyelesaikan tugas ini, saya menggunakan teknologi berikut:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React.js: Library JavaScript yang digunakan untuk membangun antarmuka pengguna secara komponen.
+React Router: Digunakan untuk menangani routing dalam aplikasi, memungkinkan navigasi antar halaman.
+Tailwind CSS: Framework CSS berbasis utility-first yang digunakan untuk styling halaman.
+Vite: Build tool yang cepat dan ringan untuk pengembangan aplikasi React.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Artikel Medium : https://medium.com/@syahrul.uix/bootstrap-mui-atau-tailwind-yuk-bahas-css-framework-di-react-8f0d9130a5de
