@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Work from "./components/Work";
 import Footer from "./components/footer";
+import Portfolio from "./components/portofolio";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <HeroSection />
       <About />
       <Work />
+      <Portfolio />
       <Footer />
     </>
   );
